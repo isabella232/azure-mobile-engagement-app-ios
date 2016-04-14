@@ -1,0 +1,257 @@
+/* 
+  Localizable.strings
+  Engagement
+
+  Created by Microsoft on 08/02/2016.
+  Copyright © 2016 Microsoft. All rights reserved.
+*/
+
+"application.name" = "Azure Mobile Engagement";
+
+/*******************************************************************************
+ * MARK: - Home
+ ******************************************************************************/
+"home.title" = "Azure Mobile Engagement";
+"home.subtitle" = "Increase app usage and user retention";
+"home.recent.updates.title" = "Recent updates";
+"home.recent.updates.view.all" = "View all";
+"home.hightlight.title" = "Highlights";
+"home.hightlight.1" = "Collect real-time analytics highlighting app users\' behavior";
+"home.hightlight.2" = "Measure and act on analytics using single dashboard";
+"home.hightlight.3" = "Create dynamic segments based on collected data";
+"home.hightlight.4" = "Create marketing campaigns/push notifications targeting specific segments";
+"home.hightlight.5" = "Send personalized out-of-app notifications, polls and in-app notifications with rich HTML";
+"home.hightlight.6" = "Integrate and automate with CRM/CMS/IT systems using open platform APIs";
+"home.hightlight.7" = "Find SDKs for all major platforms";
+
+/*******************************************************************************
+ * MARK: - Menu Sections
+ ******************************************************************************/
+"menu.section.resources" = "Product Resources";
+"menu.section.notification.scenarios" = "Sample Notifications";
+
+/*******************************************************************************
+ * MARK: - Menu
+ ******************************************************************************/
+"menu.home.title" = "Home";
+"menu.features.title" = "Features";
+"menu.videos.title" = "Videos";
+"menu.helpful.links.title" = "Helpful links";
+"menu.recent.product.updates.title" = "Recent Product updates";
+"menu.twitter.title" = "Twitter";
+"menu.application.backend.title" = "Application backend";
+"menu.get.device.id.title" = "Get the Device ID";
+"menu.out.of.app.title" = "Out-of-app/Push";
+"menu.in.app.title" = "In-app";
+"menu.in.app.pop.up.title" = "In-app pop-up";
+"menu.web.announcement.title" = "Web announcement";
+"menu.full.screen.title" = "Full screen interstitial";
+"menu.poll.title" = "Poll/Survey";
+"menu.data.push.title" = "Data push";
+"menu.about.title" = "About";
+
+/*******************************************************************************
+ * MARK: - Helpful links
+ ******************************************************************************/
+"helpful.link.documentation" = "Documentation";
+"helpful.link.pricing" = "Pricing";
+"helpful.link.sla" = "Service Level Agreement (SLA)";
+"helpful.link.msdn.support.forum" = "MSDN support forum";
+"helpful.link.user.voice.forum" = "Suggest product features";
+
+/*******************************************************************************
+ * MARK: - Get the device ID
+ ******************************************************************************/
+"get.the.device.id.message" = "Get the Device ID and register it with the platform to receive notifications from it. ";
+"get.the.device.id.share.button" = "Share";
+"get.the.device.id.copy.button" = "Copy";
+"get.the.device.id.copy.success.message" = "Your Device ID %%s was copied";
+
+/*******************************************************************************
+ * MARK: - - Out-of-app/push notifications
+ * - In-app notifications
+ ******************************************************************************/
+"out.of.app.push.notifications.notification.only.title" = "Display a \"notification only\"";
+"out.of.app.push.notifications.announcement.title" = "Display an \"announcement\"";
+
+/*******************************************************************************
+ * MARK: - - Out-of-app/push notifications
+ * - In-app notifications
+ * - In-app pop-up notification
+ * - Full screen interstitial
+ * - Poll
+ * - Data push notification
+ ******************************************************************************/
+"out.of.app.push.notifications.footer.text" = "Click here for instructions on how to send these notifications from Mobile Engagement platform";
+"notifications.footer.mention.text" = "Displays sample notification text";
+
+/*******************************************************************************
+ * MARK: - - Pop-up of the "in-app pop-up notification"
+ * - Pop-up of the "full screen interstitial"
+ * - Poll detail
+ ******************************************************************************/
+"negative.button" = "Cancel";
+
+/*******************************************************************************
+ * MARK: - - Pop-up of the "in-app pop-up notification"
+ * - Pop-up of the "full screen interstitial"
+ * - Pop-up "A notification is going to be sent" (iOS)
+ ******************************************************************************/
+"positive.button" = "OK";
+
+/*******************************************************************************
+ * MARK: - Out-of-app/push notifications
+ ******************************************************************************/
+"out.of.app.push.notifications.message" = "Product update notification using out-of-app/Push notification";
+"out.of.app.push.notifications.notification.only.message" = "Clicking on the notification will open up a native screen of the app";
+"out.of.app.push.notifications.announcement.message" = "Clicking on the notification will open up additional dynamic web view content";
+
+/*******************************************************************************
+ * MARK: - Types of notification (on Out-of-app/push notifications)
+ ******************************************************************************/
+"out.of.app.push.notifications.dialog.title" = "What type of notification do you want to display?";
+"out.of.app.push.notifications.notification.announcement.dialog.icon.title.message" = "Icon + Title + Message";
+"out.of.app.push.notifications.notification.announcement.dialog.icon.title.message.bigtext" = "Icon + Title + Message + Big Text";
+"out.of.app.push.notifications.notification.announcement.dialog.icon.title.message.bigimage" = "Icon + Title + Message + Big Image";
+
+/*******************************************************************************
+ * MARK: - Notification in the notification center
+ ******************************************************************************/
+"out.of.app.push.notification.content.title" = "New product update";
+"out.of.app.push.notification.content.text" = "Click to see the recent product updates!";
+"out.of.app.push.notification.content.big.text" = "We are constantly adding exciting new features & improvements to Azure Mobile Engagement…";
+"notification.feedback.button.title" = "Feedback";
+"notification.feedback.email.subject" = "Feedback about the recent update";
+"notification.share.button.title" = "Share";
+"notification.share.message" = "Product feedback";
+
+/*******************************************************************************
+ * MARK: - Rebound screen
+ ******************************************************************************/
+"rebound.notification.title" = "New product update";
+"rebound.notification.body" = "(HTML)";
+"close.button" = "Close";
+"home.recent.updates.view.all" = "View all";
+"local.rebound.content" = "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/><link rel=\"stylesheet\" type=\"text/css\" href=\"html/styles.css\"/><link href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,700\" rel=\"stylesheet\" type=\"text/css\"/></head><body><img src=\"html/images/azme_app_logo.png\" alt=\"\" width=\"110px\" height=\"110px\" /><div id=\"blue_separator\"></div><p> <b> Azure Mobile Engagement </b> is a software-as-a-service (SaaS) user-engagement platform that provides data-driven insights into app usage, real-time user segmentation, and enables contextually-aware push notifications and in-app messaging.</p></body></html>";
+
+/*******************************************************************************
+ * MARK: - In-app notifications
+ ******************************************************************************/
+"in.app.notifications.message" = "Product update notification using in-app notification";
+"in.app.notifications.notification.only.message" = "Clicking on the notification will open up a native screen of the app";
+"in.app.notifications.announcement.message" = "Clicking on the notification will open up additional dynamic web view content";
+"in.app.notifications.notification.title" = "New product update";
+"in.app.notifications.notification.message" = "Click to see the recent product updates!";
+
+/*******************************************************************************
+ * MARK: - Pop-up of the "In-app pop-up notification"
+ ******************************************************************************/
+"in.app.coupon.notification.dialog.title" = "Get 20%% off on your purchase";
+"in.app.coupon.notification.dialog.description" = "Use coupon code 59AXDC when checking out";
+
+/*******************************************************************************
+ * MARK: - In-app pop-up notification
+ ******************************************************************************/
+"in.app.coupon.notification.message" = "Coupon notification using in-app pop-up";
+"in.app.coupon.notification.display.title" = "Display an in-app pop-up";
+
+/*******************************************************************************
+ * MARK: - Product - Coupon
+ ******************************************************************************/
+"product.title" = "Product";
+"product.name" = "AdventureWorks\nRace Bike";
+"product.prize" = "$899.00";
+"product.purchase.text.1" = "20%% off on your purchase";
+"product.purchase.text.2" = "Use coupon code 59AXDC when checking out";
+
+/*******************************************************************************
+ * MARK: - Full screen instertitial
+ ******************************************************************************/
+"full.screen.interstitial.message" = "Deal of the day notification using full screen interstitial";
+"full.screen.interstitial.display.title" = "Display a full screen interstitial";
+"full.screen.interstitial.dialog.announcement.title" = "Deal of the day";
+"full.screen.interstitial.dialog.announcement.message" = "15%% discount on the AdventureWorks Race Bike";
+"full.screen.interstitial.dialog.announcement.body" = "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/><link rel=\"stylesheet\" type=\"text/css\" href=\"html/styles.css\"/><link href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,700\" rel=\"stylesheet\" type=\"text/css\"/></head><body><img id=\"product\" src=\"html/images/adventureworks_bicycle.png\" alt=\"\" width=\"310px\" height=\"180px\" /><div id=\"name\">AdventureWorks Race Bike</div><div id=\"price\">$899.00</div><div id=\"price_with_promotion\">$764.00</div></br><div id=\"promotion\">15%% off</div></body></html>";
+
+/*******************************************************************************
+ * MARK: - Web announcement
+ ******************************************************************************/
+"web.announcement.title" = "Display a web announcement";
+
+/*******************************************************************************
+ * MARK: - Poll
+ ******************************************************************************/
+"poll.message" = "Get users feedback using poll notification";
+"poll.display.title" = "Display a poll notification";
+
+/*******************************************************************************
+ * MARK: - Notification of the poll
+ ******************************************************************************/
+"poll.notification.title" = "Product feedback";
+"poll.notification.message" = "Click here to provide quick feedback about the app";
+
+/*******************************************************************************
+ * MARK: - - Poll
+ * - Poll detail
+ ******************************************************************************/
+"new.poll.title" = "New poll";
+"new.poll.description" = "Click this to take a quick 30 second survey!";
+
+/*******************************************************************************
+ * MARK: - Poll detail
+ ******************************************************************************/
+"poll.mention.text" = "A sample poll/survey notification";
+"new.poll.question.title.1" = "Did you find this app useful?";
+"new.poll.question.title.2" = "Would you recommend this app to your colleagues? ";
+"new.poll.question.yes" = "Yes";
+"new.poll.question.no" = "No";
+"new.poll.submit.title" = "Submit";
+
+/*******************************************************************************
+ * MARK: - Poll detail - Thanks
+ ******************************************************************************/
+"new.poll.end.message" = "Thank you for responding!";
+
+/*******************************************************************************
+ * MARK: - Data push notification
+ ******************************************************************************/
+"data.push.notification.message" = "Apply customized pricing using silent data push";
+"data.push.notification.display.title" = "Silent Data push notification";
+"data.push.notification.footer.mention.text" = "Displays fictitious product on the Data push screen";
+
+/*******************************************************************************
+ * MARK: - Product - Discount
+ ******************************************************************************/
+"product.discount.title" = "Product discount";
+"product.price" = "$899.00";
+"product.discount.apply.discount.title" = "Apply discount using silent data push";
+
+/*******************************************************************************
+ * MARK: - Product - No discount
+ ******************************************************************************/
+"product.discount.remove.discount.title" = "Remove discount using silent data push";
+"product.discount" = "15%% off";
+
+/*******************************************************************************
+ * MARK: - Recent update
+ ******************************************************************************/
+"rebound.title" = "Recent update";
+
+/*******************************************************************************
+ * MARK: - How make these notifications
+ ******************************************************************************/
+"how.to.send.these.notification.out.of.app.title" = "How to send out-of-app/push";
+"how.to.send.these.notification.in.app.title" = "How to send in-app";
+"how.to.send.these.notification.in.app.popup.title" = "How to send in-app pop-up";
+"how.to.send.these.notification.full.screen.interstitial.title" = "How to send full screen interstitial";
+"how.to.send.these.notification.web.announcement.title" = "How to send web announcement";
+"how.to.send.these.notification.poll.title" = "How to send poll";
+"how.to.send.these.notification.data.push.title" = "How to send silent data push ";
+
+/*******************************************************************************
+ * MARK: - Error
+ ******************************************************************************/
+"feature.webview.error.message" = "An error occurred while loading the screen";
+"action.retry" = "Please click the \"Refresh\" button to try displaying the content again";
+"refresh" = "Refresh";
+"permission.message" = "Enable notifications to receive product updates and try sample notification scenarios";
