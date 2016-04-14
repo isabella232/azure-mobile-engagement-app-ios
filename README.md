@@ -1,6 +1,6 @@
-# Azure Mobile Engagement iOS Demo App
+# Azure Mobile Engagement iOS App
 
-The iOS Azure Mobile Engagement demonstration application.
+The iOS Azure Mobile Engagement application.
 
 Increase app usage and user retention with Azure Mobile Engagement.
 
@@ -14,9 +14,9 @@ Increase app usage and user retention with Azure Mobile Engagement.
 
 ![image](./AzME-Demo.png) ![image](./AzME-Demo2.png)
 
-*Screenshots from the AzME iOS Demo project.*
+*Screenshots from the AzME iOS project.*
 
-## Test the Demo App
+## Test the App
 
 ### Requirements
 
@@ -25,7 +25,7 @@ Increase app usage and user retention with Azure Mobile Engagement.
 
 ### Installation 
 
-- The demo project use Cocoapods, so start to make a `pod install` to configure dependencies and workspace
+- The project use Cocoapods, so start to make a `pod install` to configure dependencies and workspace
 
 From the root folder : 
 
@@ -53,7 +53,7 @@ To test the SDK and AzME Platform, configure your Endpoint in `Code/Utils/Config
     static let endPoint =  "Your_Pre-Production_Endpoint"
     #endif
 ```
-You have to configure an Endpoint otherwise you cannot be able to test the app correctly with the SDK. You also have to create an APNS Certificate to test the app (so change the bundle ID).
+You have to configure an Endpoint otherwise you cannot test the app correctly with the SDK. You also have to create an APNS Certificate to test the app (so change the bundle ID).
 
 ## Documentation
 
