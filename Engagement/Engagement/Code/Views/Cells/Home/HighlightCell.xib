@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="HighlightCell" customModule="Engagement" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FKn-Qy-J8L">
+                        <rect key="frame" x="15" y="8" width="30" height="22"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="aeG-3J-QRt"/>
+                            <constraint firstAttribute="width" constant="30" id="ul1-dW-KNl"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDX-px-RJ8">
+                        <rect key="frame" x="53" y="8" width="259" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WDX-px-RJ8" firstAttribute="leading" secondItem="FKn-Qy-J8L" secondAttribute="trailing" constant="8" id="84M-qc-j13"/>
+                    <constraint firstAttribute="bottom" secondItem="WDX-px-RJ8" secondAttribute="bottom" id="Cub-cu-dMd"/>
+                    <constraint firstItem="WDX-px-RJ8" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="WRA-ev-tjL"/>
+                    <constraint firstItem="WDX-px-RJ8" firstAttribute="top" secondItem="FKn-Qy-J8L" secondAttribute="top" id="k9E-DD-NF0"/>
+                    <constraint firstItem="FKn-Qy-J8L" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="p0B-8p-k2b"/>
+                    <constraint firstItem="FKn-Qy-J8L" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="pi3-Tm-n5C"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ibImage" destination="FKn-Qy-J8L" id="hoe-2M-xpz"/>
+                <outlet property="ibTitle" destination="WDX-px-RJ8" id="y2K-Gv-vqZ"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

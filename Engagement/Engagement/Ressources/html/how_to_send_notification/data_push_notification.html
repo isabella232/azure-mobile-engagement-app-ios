@@ -1,0 +1,49 @@
+<html>
+
+  <head>
+
+    <meta
+      http-equiv="Content-Type"
+      content="text/html; charset=utf-8"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles.css"
+    />
+
+    <link
+      href='https://fonts.googleapis.com/css?family=Roboto:400,700'
+      rel='stylesheet'
+      type='text/css'
+    />
+
+  </head>
+
+  <body>
+
+    <p>Make sure the app is opened and then in the Azure Mobile Engagement Portal:</p>
+
+    <ol>
+
+      <li>Go to the "Reach" tab, and then select "Data Pushes".</li>
+
+      <li>Click on "New data push".</li>
+
+      <li>Fill the following values in the form:
+        <ul>
+          <li>Name: Provide the name of the campaign to identify it.</li>
+          <li>Category: Leave it as blank with no values.</li>
+          <li>Content data type: Select "Text"</li>
+          <li>Content of your data: { "isDiscountAvailable":true, "discountRateInPercent":10 }</li>
+        </ul>
+      </li>
+
+      <li>Finally, either send the test notification or create and activate the campaign. You will see the product discount applied when you navigate to the Product discount screen by clicking the "Silent Data Push Notification" button. You can also keep the Product discount screen open and see the discount getting applied as the data push is activated.</li>
+
+    </ol>
+
+  </body>
+
+</html>

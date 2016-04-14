@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SuccessPollViewController" customModule="Engagement" customModuleProvider="target">
+            <connections>
+                <outlet property="ibCloseButton" destination="FxI-lZ-sSP" id="gIL-XE-gru"/>
+                <outlet property="ibImageView" destination="PeE-v7-mRk" id="rEO-Mo-DH6"/>
+                <outlet property="ibSuccessTitle" destination="tcJ-Io-7GW" id="mn1-Y4-Sp8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_thank_you" translatesAutoresizingMaskIntoConstraints="NO" id="PeE-v7-mRk">
+                    <rect key="frame" x="260" y="200" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="LA0-0Q-sFA"/>
+                        <constraint firstAttribute="height" constant="80" id="RHy-2n-mCv"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FxI-lZ-sSP" customClass="AzButton" customModule="Engagement" customModuleProvider="target">
+                    <rect key="frame" x="10" y="530" width="580" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="aIo-4n-wNd"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="didTapCloseButton:" destination="-1" eventType="touchUpInside" id="xB8-wT-xhN"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcJ-Io-7GW">
+                    <rect key="frame" x="279" y="300" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="ew6-Wb-ZO3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FxI-lZ-sSP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="2Kj-yu-mkI"/>
+                <constraint firstItem="PeE-v7-mRk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7Fq-vS-pN5"/>
+                <constraint firstItem="tcJ-Io-7GW" firstAttribute="centerX" secondItem="PeE-v7-mRk" secondAttribute="centerX" id="CPz-3b-RMo"/>
+                <constraint firstAttribute="trailing" secondItem="FxI-lZ-sSP" secondAttribute="trailing" constant="10" id="RUZ-gg-BD2"/>
+                <constraint firstItem="tcJ-Io-7GW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="d1g-ZU-vJ7"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tcJ-Io-7GW" secondAttribute="trailing" constant="20" id="emJ-FP-Stu"/>
+                <constraint firstItem="PeE-v7-mRk" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-60" id="hqD-tm-rgQ"/>
+                <constraint firstItem="tcJ-Io-7GW" firstAttribute="top" secondItem="PeE-v7-mRk" secondAttribute="bottom" constant="20" id="l9t-bl-iGS"/>
+                <constraint firstAttribute="bottom" secondItem="FxI-lZ-sSP" secondAttribute="bottom" constant="10" id="uaC-p7-XjZ"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_thank_you" width="77" height="79"/>
+    </resources>
+</document>

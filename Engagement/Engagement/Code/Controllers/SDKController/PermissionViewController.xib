@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PermissionViewController" customModule="Engagement" customModuleProvider="target">
+            <connections>
+                <outlet property="ibButton" destination="ZGt-tu-Iwm" id="BAI-M7-4mf"/>
+                <outlet property="ibLabel" destination="M0M-rI-m7j" id="PXv-c3-ngx"/>
+                <outlet property="view" destination="iN0-l3-epB" id="qAs-Ng-JkR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGt-tu-Iwm" customClass="AzButton" customModule="Engagement" customModuleProvider="target">
+                    <rect key="frame" x="20" y="268" width="560" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="fQw-Jl-6Xg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Ok">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didOkButtonTap:" destination="-1" eventType="touchUpInside" id="rSF-Xc-Fe1"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0M-rI-m7j">
+                    <rect key="frame" x="20" y="191" width="560" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ZGt-tu-Iwm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="0ud-cz-JON"/>
+                <constraint firstItem="ZGt-tu-Iwm" firstAttribute="top" secondItem="M0M-rI-m7j" secondAttribute="bottom" constant="50" id="3az-B0-qhG"/>
+                <constraint firstItem="M0M-rI-m7j" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Blx-gm-TLc"/>
+                <constraint firstAttribute="trailing" secondItem="M0M-rI-m7j" secondAttribute="trailing" constant="20" id="H6J-XA-PhB"/>
+                <constraint firstItem="ZGt-tu-Iwm" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="N9r-AP-8vs"/>
+                <constraint firstItem="ZGt-tu-Iwm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Shs-ep-gPH"/>
+                <constraint firstItem="M0M-rI-m7j" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="id9-Ro-Qty"/>
+                <constraint firstAttribute="trailing" secondItem="ZGt-tu-Iwm" secondAttribute="trailing" constant="20" id="vr9-2m-rnc"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

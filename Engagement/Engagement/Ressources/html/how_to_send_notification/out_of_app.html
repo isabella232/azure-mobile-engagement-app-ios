@@ -1,0 +1,70 @@
+<html>
+
+  <head>
+
+    <meta
+      http-equiv="Content-Type"
+      content="text/html; charset=utf-8"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles.css"
+    />
+
+    <link
+      href='https://fonts.googleapis.com/css?family=Roboto:400,700'
+      rel='stylesheet'
+      type='text/css'
+    />
+
+  </head>
+
+  <body>
+
+    <p>Make sure the app is opened and then in the Azure Mobile Engagement Portal:</p>
+
+    <ol>
+
+      <li>Go to the "Reach" tab, and then select "Announcements".</li>
+
+      <li>Click on "New Announcement".</li>
+
+      <li>Fill the following values in the form:
+        <ul>
+          <li>Name: Provide the name of the campaign to identify it.</li>
+          <li>Category: Leave it as blank with no values.</li>
+          <li>Delivery time: "Out of app only"</li>
+          <li>Title & Message: Provide the title and the message for the system notification.</li>
+          <li>
+            Type of the announcement:
+            <ul>
+              <li>"Notification only": Clicking the notification will open a native screen of the app</li>
+              <li>"Web announcement": Clicking the notification will open a screen of the app that contains a web view</li>
+            </ul>
+          </li>
+          <li>
+            Action URL: "engagement://demo/recent_updates?displayShareButton=true&displayFeedbackButton=true" that corresponds to the native screen to open by clicking on:
+            <ul>
+              <li>The notification in the notification center: for a "notification only"</li>
+              <li>The "Action button" of a "web announcement"</li>
+            </ul>
+            <li>
+            If you choose to send a web announcement, provide the title and the html content, and add the labels of the 2 buttons:
+            <ul>
+              <li>"Action button" that redirects to a native screen of the app</li>
+              <li>"Exit button" that quits the screen</li>
+            </ul>
+            </li>
+          </li>
+        </ul>
+      </li>
+
+      <li>Finally, either send the test notification or create and activate the campaign to see the notification.</li>
+
+    </ol>
+
+  </body>
+
+</html>

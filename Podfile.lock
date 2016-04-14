@@ -1,0 +1,51 @@
+PODS:
+  - Alamofire (3.2.0)
+  - AlamofireImage (2.3.1):
+    - Alamofire (~> 3.2)
+  - FontAwesomeKit (2.2.0):
+    - FontAwesomeKit/Core (= 2.2.0)
+    - FontAwesomeKit/FontAwesome (= 2.2.0)
+    - FontAwesomeKit/FoundationIcons (= 2.2.0)
+    - FontAwesomeKit/IonIcons (= 2.2.0)
+    - FontAwesomeKit/Zocial (= 2.2.0)
+  - FontAwesomeKit/Core (2.2.0)
+  - FontAwesomeKit/FontAwesome (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.0):
+    - FontAwesomeKit/Core
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
+  - SwiftyJSON (2.3.2)
+  - SWXMLHash (2.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.2.0)
+  - AlamofireImage (~> 2.3.1)
+  - FontAwesomeKit (~> 2.2.0)
+  - MMDrawerController (~> 0.6.0)
+  - SwiftyJSON (~> 2.3.2)
+  - SWXMLHash (~> 2.1.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 4da478599fccddff361205c8929333d7fe18dceb
+  AlamofireImage: e52336282757bbe1644f075d6cb85f19c891f939
+  FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  SWXMLHash: 7257a358b3ab2f7a209e0b4e4cf552e8b6df5f0f
+
+COCOAPODS: 0.39.0

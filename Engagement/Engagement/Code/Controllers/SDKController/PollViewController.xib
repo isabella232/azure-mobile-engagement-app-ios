@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PollViewController" customModule="Engagement" customModuleProvider="target">
+            <connections>
+                <outlet property="ibActionButton" destination="6e3-MY-QDz" id="PHv-U0-8gm"/>
+                <outlet property="ibDismissButton" destination="MlP-E7-xGl" id="GGh-2q-kfb"/>
+                <outlet property="ibNavBar" destination="7gT-DI-14s" id="56n-AE-x9d"/>
+                <outlet property="ibNavBarTitleItem" destination="e5o-fD-FSp" id="npE-Yw-3Sb"/>
+                <outlet property="ibTableView" destination="aWF-LK-XiZ" id="O1Z-kU-SWV"/>
+                <outlet property="ibcNavBarHeight" destination="kDp-Io-whI" id="n7s-h5-94e"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="aWF-LK-XiZ">
+                    <rect key="frame" x="0.0" y="44" width="600" height="476"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="YkB-Dg-UHp"/>
+                        <outlet property="delegate" destination="-1" id="86V-Za-iXG"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6e3-MY-QDz" customClass="AzButton" customModule="Engagement" customModuleProvider="target">
+                    <rect key="frame" x="310" y="532" width="282" height="60"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="didTapActionButton:" destination="-1" eventType="touchUpInside" id="0a8-cU-bVg"/>
+                    </connections>
+                </button>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gT-DI-14s">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="kDp-Io-whI"/>
+                    </constraints>
+                    <items>
+                        <navigationItem title="Title" id="e5o-fD-FSp"/>
+                    </items>
+                </navigationBar>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MlP-E7-xGl" customClass="AzButton" customModule="Engagement" customModuleProvider="target">
+                    <rect key="frame" x="8" y="532" width="282" height="60"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="didTapExitButton:" destination="-1" eventType="touchUpInside" id="Ggb-qF-JTu"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="aWF-LK-XiZ" secondAttribute="trailing" id="0vg-N4-2n7"/>
+                <constraint firstItem="6e3-MY-QDz" firstAttribute="width" secondItem="MlP-E7-xGl" secondAttribute="width" id="4ne-6D-7zj"/>
+                <constraint firstAttribute="trailing" secondItem="7gT-DI-14s" secondAttribute="trailing" id="GzL-gn-abi"/>
+                <constraint firstItem="MlP-E7-xGl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="LXl-hR-bVe"/>
+                <constraint firstAttribute="bottom" secondItem="aWF-LK-XiZ" secondAttribute="bottom" constant="80" id="NQ7-ZI-HaZ"/>
+                <constraint firstItem="6e3-MY-QDz" firstAttribute="top" secondItem="MlP-E7-xGl" secondAttribute="top" id="Obq-ju-pTg"/>
+                <constraint firstItem="6e3-MY-QDz" firstAttribute="leading" secondItem="MlP-E7-xGl" secondAttribute="trailing" constant="20" id="P0V-vf-990"/>
+                <constraint firstItem="6e3-MY-QDz" firstAttribute="top" secondItem="aWF-LK-XiZ" secondAttribute="bottom" constant="12" id="RyR-TY-YXT"/>
+                <constraint firstItem="aWF-LK-XiZ" firstAttribute="top" secondItem="7gT-DI-14s" secondAttribute="bottom" id="TPi-cl-Me1"/>
+                <constraint firstItem="7gT-DI-14s" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="asw-JR-zA4"/>
+                <constraint firstItem="MlP-E7-xGl" firstAttribute="top" secondItem="aWF-LK-XiZ" secondAttribute="bottom" constant="12" id="fSc-bu-kbu"/>
+                <constraint firstAttribute="bottom" secondItem="6e3-MY-QDz" secondAttribute="bottom" constant="8" id="i7h-zo-WRN"/>
+                <constraint firstItem="aWF-LK-XiZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iGk-MN-RKx"/>
+                <constraint firstItem="6e3-MY-QDz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" priority="999" constant="8" id="iHn-8e-u3e"/>
+                <constraint firstAttribute="trailing" secondItem="MlP-E7-xGl" secondAttribute="trailing" priority="999" constant="8" id="jF8-NG-pwE"/>
+                <constraint firstItem="7gT-DI-14s" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kqL-1F-fAK"/>
+                <constraint firstAttribute="trailing" secondItem="6e3-MY-QDz" secondAttribute="trailing" constant="8" id="u31-2S-GJU"/>
+                <constraint firstAttribute="bottom" secondItem="MlP-E7-xGl" secondAttribute="bottom" constant="8" id="v3g-iL-Avb"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
