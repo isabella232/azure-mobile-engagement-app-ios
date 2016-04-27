@@ -10,7 +10,7 @@ Increase app usage and user retention with Azure Mobile Engagement.
 - Create marketing campaigns/push notifications targeting specific segments
 - Send personalized out-of-app notifications, polls, and in-app notifications with rich HTML
 - Integrate and automate with CRM/CMS/IT systems using open-platform APIs
-- Find SDKs for all major platforms—iOS, Android, Windows, Windows Phone 
+- Find SDKs for all major platforms—iOS, Android, Windows Universal, Windows Phone, Xamarin, Cordova, Unity 
 
 ![image](./AzME-Demo.png) ![image](./AzME-Demo2.png)
 
@@ -21,7 +21,7 @@ Increase app usage and user retention with Azure Mobile Engagement.
 ### Requirements
 
 - Cocoapods : See https://cocoapods.org/
-- Xcode 7.2.1, the app is writed in Swift 2
+- Xcode 7.2.1, the app is written in Swift 2
 
 ### Installation 
 
