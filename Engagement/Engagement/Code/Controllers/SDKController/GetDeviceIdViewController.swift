@@ -40,6 +40,10 @@ class GetDeviceIdViewController: CenterViewController {
       dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0))
       {
         let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
+        if UIDevice.currentDevice().userInterfaceIdiom == .Pad{
+          activityVC.popoverPresentationController?.sourceView = self.ibShareButton
+          activityVC.popoverPresentationController?.sourceRect = self.ibShareButton.bounds
+        }
         activityVC.completionWithItemsHandler = { (activityTypeString, completed, items, error) in
           if completed == true && error == nil{
             if (activityTypeString == UIActivityTypeCopyToPasteboard){
