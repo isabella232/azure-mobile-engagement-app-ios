@@ -1,4 +1,4 @@
-# Azure Mobile Engagement iOS App
+﻿# Azure Mobile Engagement iOS App
 
 The iOS Azure Mobile Engagement application.
 
@@ -10,7 +10,7 @@ Increase app usage and user retention with Azure Mobile Engagement.
 - Create marketing campaigns/push notifications targeting specific segments
 - Send personalized out-of-app notifications, polls, and in-app notifications with rich HTML
 - Integrate and automate with CRM/CMS/IT systems using open-platform APIs
-- Find SDKs for all major platforms—iOS, Android, Windows Universal, Windows Phone, Xamarin, Cordova, Unity 
+- Find SDKs for all major platforms: iOS, Android, Windows Universal, Windows Phone, Xamarin, Cordova, Unity 
 
 ![image](./AzME-Demo.png) ![image](./AzME-Demo2.png)
 
@@ -25,7 +25,7 @@ Increase app usage and user retention with Azure Mobile Engagement.
 
 ### Installation 
 
-- The project use Cocoapods, so start to make a `pod install` to configure dependencies and workspace
+- The project uses Cocoapods, so start to make a `pod install` to configure dependencies and workspace
 
 From the root folder : 
 
@@ -59,7 +59,7 @@ You have to configure an Endpoint otherwise you cannot test the app correctly wi
 
 Official documentation is available on [Azure Mobile Engagement Website](https://azure.microsoft.com/en-us/documentation/services/mobile-engagement/)
 
-## Licence : MIT
+## License : MIT
 
 Azure Mobile Engagement App
 Copyright (c) Microsoft Corporation
