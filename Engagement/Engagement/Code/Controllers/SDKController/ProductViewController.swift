@@ -55,7 +55,7 @@ class ProductViewController: EngagementViewController {
     super.viewDidLoad()
     
     NSNotificationCenter.defaultCenter().addObserver(self,
-      selector: "getDataPushValues:",
+      selector: #selector(ProductViewController.getDataPushValues(_:)),
       name: Config.Notifications.dataPushValuesUpdated,
       object: nil)
     
