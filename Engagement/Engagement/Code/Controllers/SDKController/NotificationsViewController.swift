@@ -102,7 +102,7 @@ class NotificationsViewController: CenterViewController {
   }
   
   func hasPushEnabled() -> Bool {
-    if UIApplication.sharedApplication().respondsToSelector("currentUserNotificationSettings") == true {
+    if UIApplication.sharedApplication().respondsToSelector(#selector(UIApplication.currentUserNotificationSettings)) == true {
       let settings = UIApplication.sharedApplication().currentUserNotificationSettings()
       if (settings?.types.contains(.Alert) == true){
         return true

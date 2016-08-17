@@ -22,7 +22,7 @@ class CenterViewController: EngagementViewController {
       self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: AzIcon.iconMenu(18).imageWithSize(CGSizeMake(18, 18)),
         style: .Plain,
         target: self,
-        action: "toggleDrawer")
+        action: #selector(CenterViewController.toggleDrawer))
     }
   }
   

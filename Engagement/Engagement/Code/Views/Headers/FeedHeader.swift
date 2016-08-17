@@ -37,7 +37,7 @@ class FeedHeader: UIView {
     
     self.ibHeaderTitle.font = UIFont(named: UIFont.AppFont.Regular, size: 18)
     
-    self.ibActionButton.addTarget(self, action: "didTapButton", forControlEvents: .TouchUpInside)
+    self.ibActionButton.addTarget(self, action: #selector(FeedHeader.didTapButton), forControlEvents: .TouchUpInside)
     self.ibActionButton.titleLabel?.font = UIFont(named: UIFont.AppFont.Regular, size: 13)
   }
   
@@ -62,7 +62,7 @@ class FeedHeader: UIView {
     self.ibActionButton.setTitle(buttonTitle?.uppercaseString, forState: .Normal)
     self.action = action
     self.ibRootView.backgroundColor = bgColor
-    self.ibActionButton.addTarget(self, action: "didTapButton", forControlEvents: .TouchUpInside)
+    self.ibActionButton.addTarget(self, action: #selector(FeedHeader.didTapButton), forControlEvents: .TouchUpInside)
   }
   
 }
