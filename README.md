@@ -1,4 +1,6 @@
-﻿# Azure Mobile Engagement iOS App
+# Azure Mobile Engagement service has been retired and is no longer available.    
+
+# Azure Mobile Engagement iOS App
 
 The iOS Azure Mobile Engagement application.
 
